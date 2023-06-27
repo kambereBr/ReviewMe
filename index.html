@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Home Page - ReviewMe</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <!-- <a class="navbar-brand" href="#">Logo</a> -->
           <button
             class="navbar-toggler"
             type="button"
@@ -20,42 +21,26 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" style="color: aqua"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <div class="d-flex">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item me-5">
+                  <a class="nav-link" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item me-5">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item me-5">
+                  <a class="nav-link" href="#">Sponsors</a>
+                </li>
+                <li class="nav-item me-5">
+                  <a class="nav-link">Forum</a>
+                </li>
+              </ul>
+              <!-- <input
                 class="form-control me-2"
                 type="search"
                 placeholder="Search"
@@ -63,16 +48,327 @@
               />
               <button class="btn btn-outline-success" type="submit">
                 Search
-              </button>
-            </form>
+              </button> -->
+            </div>
           </div>
         </div>
       </nav>
     </header>
     <main>
-        <section class="container-fluid">
-        </section>
+      <section class="banner-section">
+        <div class="background-image"></div>
+        <div class="banner-text-content">
+          <h1 class="mb-3">Hello Developers!</h1>
+          <h2 class="fw-bold">
+            ReviewMe, Get Instant help, <br />
+            Meet professionals and <br />
+            all your client's requirements
+          </h2>
+          <div class="site-description-div">
+            <p class="p-3">
+              Find qualified code reviewers, get feedback on your code, and
+              improve the quality of your code. Learn new skills, and give
+              feedback to the software development community.
+            </p>
+          </div>
+          <div class="site-date-div">
+            <p class="text-date">2023.06.26 (Mon.) ~ 30 (Fri.)</p>
+            <p class="text-date-description">@DRC, Goma, 50 Matadi Street</p>
+          </div>
+        </div>
+      </section>
+      <section class="service-section">
+        <div class="service-background-image"></div>
+        <div class="content-title-service">
+          <h3 class="text-center">Services</h3>
+          <div class="service-line"><hr /></div>
+          <div class="services-items-div">
+            <div class="services-items-div-leftside">
+              <div class="reviewer-image">
+                <img src="assets/icons/reviewer.png" alt="" />
+              </div>
+              <span class="reviewer-position">Reviews</span>
+            </div>
+            <div class="services-items-div-rigthside">
+              <p class="reviewer-description">
+                Get support from top talented code reviewers 24/7
+              </p>
+            </div>
+          </div>
+          <div class="services-items-div">
+            <div class="services-items-div-leftside">
+              <div class="reviewer-image">
+                <img src="assets/icons/developer.png" alt="" />
+              </div>
+              <span class="reviewer-position">Developers</span>
+            </div>
+            <div class="services-items-div-rigthside">
+              <p class="reviewer-description">
+                Hire or order pair programming session
+              </p>
+            </div>
+          </div>
+          <div class="services-items-div">
+            <div class="services-items-div-leftside">
+              <div class="reviewer-image">
+                <img src="assets/icons/offer.png" alt="" />
+              </div>
+              <span class="reviewer-position">Offers</span>
+            </div>
+            <div class="services-items-div-rigthside">
+              <p class="reviewer-description">
+                Apply to thousands of available offers
+              </p>
+            </div>
+          </div>
+          <div class="services-items-div">
+            <div class="services-items-div-leftside">
+              <div class="reviewer-image">
+                <img src="assets/icons/project.png" alt="" />
+              </div>
+              <span class="reviewer-position">Projects</span>
+            </div>
+            <div class="services-items-div-rigthside">
+              <p class="reviewer-description">
+                Contribute to open source projects
+              </p>
+            </div>
+          </div>
+          <div class="services-items-div">
+            <div class="services-items-div-leftside">
+              <div class="reviewer-image">
+                <img src="assets/icons/forum.png" alt="" />
+              </div>
+              <span class="reviewer-position">Forum</span>
+            </div>
+            <div class="services-items-div-rigthside">
+              <p class="reviewer-description">
+                Learn more about ReviewMe community
+              </p>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <!-- <div
+            class="row row-cols-1 row-cols-md-3 text-center justify-content-center nowrap"
+          >
+            <div class="col mb-4 col-card-service" style="width: 180px">
+              <div class="card">
+                <div class="text-center">
+                  <img
+                    src="assets/icons/reviewer.png"
+                    alt="languages"
+                    class="text-center"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="text-center fw-bold fs-5">Reviews</p>
+                </div>
+                <div class="nav flex-row justify-content-center p-2">
+                  <p>Get support from top talented code reviewers 24/7</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4 col-card-service">
+              <div class="card">
+                <div class="text-center">
+                  <img
+                    src="assets/icons/developer.png"
+                    alt="languages"
+                    class="text-center"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="text-center fw-bold fs-5">Developers</p>
+                </div>
+                <div class="nav flex-row justify-content-center p-2">
+                  <p>Get support from top talented code reviewers 24/7</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4 col-card-service">
+              <div class="card">
+                <div class="text-center">
+                  <img
+                    src="assets/icons/offer.png"
+                    alt="languages"
+                    class="text-center"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="text-center fw-bold fs-5">Offers</p>
+                </div>
+                <div class="nav flex-row justify-content-center p-2">
+                  <p>Get support from top talented code reviewers 24/7</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4 col-card-service">
+              <div class="card">
+                <div class="text-center">
+                  <img
+                    src="assets/icons/project.png"
+                    alt="languages"
+                    class="text-center"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="text-center fw-bold fs-5">Projects</p>
+                </div>
+                <div class="nav flex-row justify-content-center p-2">
+                  <p>Get support from top talented code reviewers 24/7</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4 col-card-service">
+              <div class="card">
+                <div class="text-center">
+                  <img
+                    src="assets/icons/forum.png"
+                    alt="languages"
+                    class="text-center"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="text-center fw-bold fs-5">Forum</p>
+                </div>
+                <div class="nav flex-row justify-content-center p-2">
+                  <p>Get support from top talented code reviewers 24/7</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+
+
+
+          <div>
+            <p class="text-center text-more-service">SEE THE WHOLE SERVICES</p>
+          </div>
+        </div>
+      </section>
+      <section class="reviewers-section">
+        <div class="content-title-service mt-5">
+          <h3 class="text-center">Reviewers</h3>
+          <div class="reviewers-line"><hr /></div>
+
+          <div class="reviewer-items">
+            <div class="reviewer-image">
+              <img src="assets/icons/developer.png" alt="" />
+            </div>
+            <div class="reviewer-details">
+              <h4 class="reviewer-name">Bruno Kambere</h4>
+              <span class="reviewer-position">Software Developer at Meta</span>
+              <div class="reviewer-position-line"><hr /></div>
+              <p class="reviewer-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
+                voluptas quaerat perferendis, consequatur eum reiciendis.
+              </p>
+            </div>
+          </div>
+          <div class="reviewer-items">
+            <div class="reviewer-image">
+              <img src="assets/icons/developer.png" alt="" />
+            </div>
+            <div class="reviewer-details">
+              <h4 class="reviewer-name">Bruno Kambere</h4>
+              <span class="reviewer-position">Software Developer at Meta</span>
+              <div class="reviewer-position-line"><hr /></div>
+              <p class="reviewer-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
+                voluptas quaerat perferendis, consequatur eum reiciendis.
+              </p>
+            </div>
+          </div>
+          <div class="reviewer-items">
+            <div class="reviewer-image">
+              <img src="assets/icons/developer.png" alt="" />
+            </div>
+            <div class="reviewer-details">
+              <h4 class="reviewer-name">Bruno Kambere</h4>
+              <span class="reviewer-position">Software Developer at Meta</span>
+              <div class="reviewer-position-line"><hr /></div>
+              <p class="reviewer-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
+                voluptas quaerat perferendis, consequatur eum reiciendis.
+              </p>
+            </div>
+          </div>
+          <div class="reviewer-items">
+            <div class="reviewer-image">
+              <img src="assets/icons/developer.png" alt="" />
+            </div>
+            <div class="reviewer-details">
+              <h4 class="reviewer-name">Bruno Kambere</h4>
+              <span class="reviewer-position">Software Developer at Meta</span>
+              <div class="reviewer-position-line"><hr /></div>
+              <p class="reviewer-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
+                voluptas quaerat perferendis, consequatur eum reiciendis.
+              </p>
+            </div>
+          </div>
+          <div class="reviewer-items">
+            <div class="reviewer-image">
+              <img src="assets/icons/developer.png" alt="" />
+            </div>
+            <div class="reviewer-details">
+              <h4 class="reviewer-name">Bruno Kambere</h4>
+              <span class="reviewer-position">Software Developer at Meta</span>
+              <div class="reviewer-position-line"><hr /></div>
+              <p class="reviewer-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
+                voluptas quaerat perferendis, consequatur eum reiciendis.
+              </p>
+            </div>
+          </div>
+          <div class="reviewer-items">
+            <div class="reviewer-image">
+              <img src="assets/icons/developer.png" alt="" />
+            </div>
+            <div class="reviewer-details">
+              <h4 class="reviewer-name">Bruno Kambere</h4>
+              <span class="reviewer-position">Software Developer at Meta</span>
+              <div class="reviewer-position-line"><hr /></div>
+              <p class="reviewer-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
+                voluptas quaerat perferendis, consequatur eum reiciendis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partners-section">
+        <h3 class="text-center">Partner</h3>
+        <div class="partners-line"><hr /></div>
+        <div class="partners-logo">
+          <img src="assets/images/logo-airbnb.png" alt="logo airbnd" />
+          <img src="assets/images/logo-airbnb.png" alt="logo airbnd" />
+          <img src="assets/images/logo-airbnb.png" alt="logo airbnd" />
+          <img src="assets/images/logo-airbnb.png" alt="logo airbnd" />
+        </div>
+      </section>
     </main>
+    <footer class="footer-section">
+      <div class="logo-section-footer">
+        <img src="assets/icons/project.png" alt="" />
+      </div>
+      <div class="content-section-footer">
+        <h4>2023 ReviewMe, DRC. Some Rights Reserved</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          aspernatur enim pariatur obcaecati omnis placeat, quisquam, a autem
+          incidunt modi distinctio quia, nostrum eum quibusdam. Delectus saepe
+          possimus rem reiciendis.
+        </p>
+      </div>
+    </footer>
     <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
