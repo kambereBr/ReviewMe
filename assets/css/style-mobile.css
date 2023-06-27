@@ -210,11 +210,21 @@ hr {
     padding-top: 25px;
 }
 
-.partners-logo, .footer-section {
+.partners-logo{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section-footer {
+    width: 40%;
 }
 
 .partners-logo img {
@@ -226,7 +236,9 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .content-section-footer h4,  .content-section-footer p{
@@ -235,4 +247,108 @@ hr {
 
 .logo-section-footer img{
     width: 70px;
+}
+
+.reviewer-items-more-button, .buttont-join-reviewme a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--black-text);
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.reviewer-items-more-button {
+    margin-bottom: 50px;
+}
+
+.buttont-join-reviewme a {
+    border: 1px solid var(--orange-color);
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    background-color: var(--orange-color);
+    margin-top: 40px;
+}
+
+.reviewer-items-more-button a {
+    text-decoration: none;
+    color: #272a31;
+    size: 1.5rem;
+}
+
+.reviewer-items-more-button img {
+    width: 20px;
+    margin-left: 7px;
+}
+
+.about-logo {
+    border: 1px solid var(--smoke-text);
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.about-big-line hr {
+    width: 100%;
+    border-top: 2px solid var(--smoke-text);
+}
+
+.hackathon-about-section-image-1, .hackathon-about-section-image-2 {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+}
+
+.hackathon-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    /* justify-content: center; */
+}
+
+.hackathon-about-section-image-1 .hackathon-background-image {
+    position: absolute;
+    z-index: -1;
+    background-image: url(../images/small-business-3-1024x683.jpg);
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    width: 90%;
+    height: 30vh;
+    background-attachment: scroll;
+}
+
+.hackathon-about-section-image-2 .hackathon-background-image {
+    position: absolute;
+    z-index: -1;
+    background-image: url(../images/small-business-3-1024x683.jpg);
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    width: 90%;
+    height: 30vh;
+    background-attachment: scroll;
+}
+
+.hackathon-about-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.hackathon-about-section h4{
+    font-size: 1.3rem !important;
+    font-weight: 700;  
+}
+
+.hackathon-about-section p {
+    padding: 10px;
+}
+
+.hackathon-description p, .hackathon-description > h4 {
+    color: white;
+    font-weight: 700;
 }
