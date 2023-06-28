@@ -40,7 +40,6 @@
     right: 0;
     background: url(../images/backgrounf-img.jpg);
     opacity: 0.05;
-    /* width: 100%; */
     height: 70vh;
     background-attachment: scroll;
 }
@@ -54,14 +53,25 @@
     right: 0;
     background: url(../images/background_section-02.jpg);
     opacity: 0.8;
-    /* width: 100%; */
-    /* height: 100vh; */
-     background-attachment: scroll;
+    background-attachment: scroll;
 }
 
 .banner-text-content {
     padding-top: 20px;
 }
+
+.banner-text-content .h2-banner-home {
+    background-image: url(../images/download.png);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--orange-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+}
+
 
 h1, h2 {
     color: var(--orange-color);
@@ -81,7 +91,7 @@ h2 {
 
 .site-description-div {
     width: 100%;
-    border: 4px solid rgb(230, 230, 230);
+    border: 4px solid white;
 }
 
 .nav-link {
@@ -307,7 +317,6 @@ hr {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    /* justify-content: center; */
 }
 
 .hackathon-about-section-image-1 .hackathon-background-image {
@@ -334,6 +343,17 @@ hr {
     background-attachment: scroll;
 }
 
+.hackathon-background-color {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    width: 90%;
+    height: 30vh;
+    background-color: rgba(236, 82, 66, 0.90)
+}
+
 .hackathon-about-section {
     display: flex;
     flex-direction: column;
@@ -351,4 +371,8 @@ hr {
 .hackathon-description p, .hackathon-description > h4 {
     color: white;
     font-weight: 700;
+}
+
+.hackathon-description > h4 {
+    font-size: 2rem !important;
 }
