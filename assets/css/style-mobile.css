@@ -67,7 +67,7 @@
     -webkit-text-fill-color: transparent;
     color: var(--orange-color);
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 800;
     -webkit-font-smoothing: antialiased;
 }
@@ -194,7 +194,7 @@ hr {
 }
 
 .reviewer-name {
-    font-size: 1rem;
+    font-size: 1rem !important;
     font-weight: 700;
 }
 
@@ -211,7 +211,9 @@ hr {
 }
 
 .partners-section {
-    height: 50vh;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
     background-color: var(--black-text);
 }
 
@@ -234,7 +236,9 @@ hr {
 }
 
 .logo-section-footer {
-    width: 40%;
+    width: 20%;
+    display: flex;
+    justify-content: inherit;
 }
 
 .partners-logo img {
@@ -245,8 +249,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 50%;
+    width: 40%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -260,7 +263,7 @@ hr {
 }
 
 .reviewer-items-more-button, .buttont-join-reviewme a {
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--black-text);
@@ -281,6 +284,10 @@ hr {
     text-decoration: none;
     background-color: var(--orange-color);
     margin-top: 40px;
+}
+
+.button-all-service a {
+    display: none !important;
 }
 
 .reviewer-items-more-button a {
@@ -375,4 +382,8 @@ hr {
 
 .hackathon-description > h4 {
     font-size: 2rem !important;
+}
+
+.partners-section-home-page, .footer-section-home-page {
+    display: none !important;
 }

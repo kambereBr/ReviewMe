@@ -1,0 +1,117 @@
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+
+  /* BANNER SECTION */
+  .banner-section, .background-image {
+    height: 100vh !important;
+  }
+
+  .banner-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 80%;
+  }
+
+  .banner-text-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .banner-text-content h2 {
+    font-size: 3.3rem;
+  }
+
+  .site-description-div p, .text-date-description {
+    font-size: 1.2rem;
+  }
+
+  .site-description-div {
+    width: 80%;
+  }
+
+  .text-date {
+    font-size: 2rem;
+  }
+
+  .content-title-service {
+    width: 80%;
+  }
+
+  .content-service-card-div {
+    display: flex;
+  }
+
+  .services-items-div, .services-items-div-leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    width: 25%;
+  }
+
+  .reviewer-description {
+    text-align: start;
+  }
+
+  .services-items-div-rigthside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .buttont-join-reviewme a {
+    display: none !important;
+  }
+
+  .button-all-service a{
+    display: flex !important;
+    justify-content: center;
+    border: none !;
+    color: white;
+    font-weight: 600;
+    background-color: none;
+    margin-top: 40px;
+    font-size: 1.2rem;
+  }
+
+
+  /* REVIEWERS SECTION */
+  .reviewers-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reviewer-items {
+    display: flex;
+    float: left;
+    width: 50%;
+  }
+
+  .reviewer-name {
+    font-size: 1.5rem !important;
+  }
+
+  .reviewer-items-more-button {
+    display: none !important;
+  }
+
+  /* PARTENER SECTION */
+  .partners-section {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .footer-section-home-page {
+    display: flex !important;
+  }
+
+
+
+
+}

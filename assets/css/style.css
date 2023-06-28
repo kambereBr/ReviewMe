@@ -1,5 +1,6 @@
 @import url("https://fonts.google.com/specimen/Lato?query=lato");
 @import url('style-mobile.css');
+@import url('style-desktop.css');
 
 * {
   margin: 0;
