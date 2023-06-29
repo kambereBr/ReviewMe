@@ -160,6 +160,10 @@ hr {
   align-items: baseline;
 }
 
+.hide-items {
+  display: none !important;
+}
+
 .card-body p {
   color: var(--orange-color);
 }

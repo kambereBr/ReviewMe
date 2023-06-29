@@ -11,6 +11,10 @@
     width: 80% !important;
   }
 
+  .home-menu-about {
+    display: none !important;
+  }
+
   /* BANNER SECTION */
   .banner-section,
   .background-image {
@@ -71,6 +75,10 @@
 
   .reviewer-description-position {
     text-align: start !important;
+  }
+
+  .hide-items {
+    display: flex !important;
   }
 
   .reviewer-items-last {
