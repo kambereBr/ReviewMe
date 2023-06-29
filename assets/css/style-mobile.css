@@ -1,7 +1,11 @@
 :root {
   --orange-color: #ec5242;
-  --black-text: #272a31;
+  --black-text: #202229;
   --smoke-text: #d3d3d3;
+}
+
+.nav-bar-logo-image {
+  display: none !important;
 }
 
 .banner-section {
@@ -66,14 +70,21 @@
   -webkit-text-fill-color: transparent;
   color: var(--orange-color);
   font-weight: bold;
-  /* text-transform: uppercase; */
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
+}
+
+.content-title-service p {
+  padding: 5px;
 }
 
 h1,
 h2 {
   color: var(--orange-color);
+}
+
+.about-active {
+  color: var(--orange-color) !important;
 }
 
 p,
@@ -176,7 +187,6 @@ hr {
 .partners-line {
   display: flex;
   justify-content: center;
-  /* margin-bottom: 10px; */
 }
 
 .reviewer-items {
@@ -217,8 +227,8 @@ hr {
 
 .partners-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 25vh;
   background-color: var(--black-text);
 }
 
@@ -236,7 +246,7 @@ hr {
 
 .footer-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -247,7 +257,9 @@ hr {
 }
 
 .partners-logo img {
-  width: 150px;
+  width: 50px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .footer-logo-transparent {
@@ -343,7 +355,7 @@ hr {
 .hackathon-about-section-image-1 .hackathon-background-image {
   position: absolute;
   z-index: -1;
-  background-image: url(../images/small-business-3-1024x683.jpg);
+  background-image: url(../images/how-to-show-respect-in-the-workplace.jpg);
   opacity: 0.8;
   background-repeat: no-repeat;
   background-size: 500px 300px;
@@ -383,6 +395,7 @@ hr {
 .hackathon-about-section h4 {
   font-size: 1.3rem !important;
   font-weight: 700;
+  color: var(--black-text);
 }
 
 .hackathon-about-section p {

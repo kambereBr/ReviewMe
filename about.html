@@ -9,9 +9,14 @@
   </head>
   <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">Logo</a> -->
+          <a class="navbar-brand nav-bar-logo-image" href="index.html">
+            <img
+              src="assets/images/reviewme-website-favicon-color-updated.png"
+              alt="logo image"
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -28,10 +33,17 @@
             <div class="d-flex">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item me-5">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
                 </li>
                 <li class="nav-item me-5">
-                  <a class="nav-link text-warning" aria-current="page" href="#">About</a>
+                  <a
+                    class="nav-link about-active"
+                    aria-current="page"
+                    href="index.html"
+                    >About</a
+                  >
                 </li>
                 <li class="nav-item me-5">
                   <a class="nav-link" href="#">Services</a>
@@ -51,12 +63,12 @@
     <main>
       <section class="banner-section banner-section-about-page">
         <div class="background-image background-image-about-page"></div>
-        <div class="banner-text-content">
+        <div class="banner-text-content banner-text-content-about">
           <h1 class="mb-3 text-center">Hello Developers!</h1>
           <h2 class="fw-bold text-center">
             ReviewMe, GET INSTANT HELP, <br />
             MEET PROFESSIONALS AND <br />
-            MOVE 5x FASTER 
+            MOVE 5x FASTER
           </h2>
           <div class="bg-white site-description-div">
             <p class="p-3 text-center">
@@ -66,8 +78,12 @@
             </p>
           </div>
           <div class="text-center">
-            <p class="mt-3">Please Contact us per Email for any further questions about ReviewMe! <br>
-                <span class="fw-bold text-decoration-underline">brunokambere@gmail.com</span> 
+            <p class="mt-3">
+              Please Contact us per Email for any further questions about
+              ReviewMe! <br />
+              <span class="fw-bold text-decoration-underline"
+                >brunokambere@gmail.com</span
+              >
             </p>
           </div>
         </div>
@@ -78,11 +94,19 @@
           <h3 class="text-center">ReviewMe Logo</h3>
           <div class="reviewers-line"><hr /></div>
           <div class="text-center">
-            <p>ReviewMe Logo was decided through the logo competition from 10 June to 15.</p>
+            <p>
+              ReviewMe Logo was decided through the logo competition from 10
+              June to 15.
+            </p>
           </div>
 
           <div class="about-logo text-center">
-            <img src="assets/images/reviewme-high-resolution-logo-color-on-transparent-background.png" width="150px" height="150px" alt="">
+            <img
+              src="assets/images/reviewme-low-resolution-logo-color-on-transparent-background.png"
+              width="150px"
+              height="150px"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -90,47 +114,63 @@
       <section class="hackathon-about-section text-center">
         <h4>See the past ReviewMe Hackathon</h4>
         <div class="service-line"><hr /></div>
-        <p>Take a look at the last two Hackathons which took place in Goma and Kinshasa</p>
+        <p>
+          Take a look at the last two Hackathons which took place in Goma and
+          Kinshasa
+        </p>
         <div class="hackathon-about-section-wrapper">
           <div class="hackathon-about-section-image-1">
-              <div class="hackathon-background-image"></div>
-              <div class="hackathon-background-color"></div>
-              <div class="hackathon-description">
-                  <h4>2023</h4>
-                  <p>ReviewMe Hackathon in Kinshasa</p>
-              </div>            
+            <div class="hackathon-background-image"></div>
+            <div class="hackathon-background-color"></div>
+            <div class="hackathon-description">
+              <h4>2023</h4>
+              <p>ReviewMe Hackathon in Kinshasa</p>
+            </div>
           </div>
           <div class="hackathon-about-section-image-2">
-              <div class="hackathon-background-image"></div>
-              <div class="hackathon-background-color"></div>
-              <div class="hackathon-description">
-                  <h4>2023</h4>
-                  <p>ReviewMe Hackathon in Goma</p>
-              </div>
+            <div class="hackathon-background-image"></div>
+            <div class="hackathon-background-color"></div>
+            <div class="hackathon-description">
+              <h4>2023</h4>
+              <p>ReviewMe Hackathon in Goma</p>
+            </div>
           </div>
         </div>
       </section>
-      <section class="partners-section">
+      <section class="partners-section partners-section-about">
         <h3 class="text-center">Partner</h3>
         <div class="partners-line"><hr /></div>
         <div class="partners-logo">
-          <img src="assets/images/logo-airbnb.png" alt="logo airbnd" />
-          <img src="assets/images/logo-airbnb.png" alt="logo airbnd" />
-          <img src="assets/images/logo-airbnb.png" alt="logo airbnd" />
-          <img src="assets/images/logo-airbnb.png" alt="logo airbnd" />
+          <img
+            src="assets/images/icons8_twitter_100px.png"
+            alt="logo twitter"
+          />
+          <img src="assets/images/icons8_github_100px.png" alt="logo github" />
+          <img src="assets/images/icons8_google_100px.png" alt="logo google" />
+          <img src="assets/images/icons8_gitlab_100px.png" alt="logo gitlab" />
         </div>
       </section>
     </main>
-    <footer class="footer-section">
+    <footer class="footer-section footer-section-about">
       <div class="logo-section-footer">
-        <img src="assets/images/reviewme-high-resolution-logo-color-on-transparent-background.png" class="footer-logo-red" width="150px" height="50px" alt="" />
-        <img src="assets/images/reviewme-high-resolution-logo-white-on-transparent-background.png" class="footer-logo-transparent" width="150px" height="50px" alt="" />
+        <img
+          src="assets/images/reviewme-low-resolution-logo-color-on-transparent-background.png"
+          class="footer-logo-red"
+          width="280px"
+          height="80px"
+          alt=""
+        />
+        <img
+          src="assets/images/reviewme-low-resolution-logo-white-on-transparent-background.png"
+          class="footer-logo-transparent"
+          width="280px"
+          height="80px"
+          alt=""
+        />
       </div>
-      <div class="content-section-footer">
+      <div class="content-section-footer content-section-footer-about">
         <h4>2023 ReviewMe, DRC. Some Rights Reserved</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
+        <p>Designed and developed by Bruno K.</p>
       </div>
     </footer>
     <script src="assets/js/bootstrap.min.js"></script>
