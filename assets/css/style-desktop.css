@@ -3,9 +3,9 @@
     overflow-x: hidden;
   }
 
-
   /* BANNER SECTION */
-  .banner-section, .background-image {
+  .banner-section,
+  .background-image {
     height: 100vh !important;
   }
 
@@ -25,12 +25,14 @@
     font-size: 3.3rem;
   }
 
-  .site-description-div p, .text-date-description {
+  .site-description-div p,
+  .text-date-description {
     font-size: 1.2rem;
   }
 
   .site-description-div {
     width: 80%;
+    border: 1px solid var(--smoke-text);
   }
 
   .text-date {
@@ -45,7 +47,8 @@
     display: flex;
   }
 
-  .services-items-div, .services-items-div-leftside {
+  .services-items-div,
+  .services-items-div-leftside {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +72,7 @@
     display: none !important;
   }
 
-  .button-all-service a{
+  .button-all-service a {
     display: flex !important;
     justify-content: center;
     border: none !;
@@ -79,7 +82,6 @@
     margin-top: 40px;
     font-size: 1.2rem;
   }
-
 
   /* REVIEWERS SECTION */
   .reviewers-section {
@@ -111,7 +113,65 @@
     display: flex !important;
   }
 
+  /* ABOUT PAGE */
+  .banner-text-content h1 {
+    display: none !important;
+  }
 
+  .banner-section-about-page,
+  .background-image-about-page {
+    height: 75vh !important;
+  }
 
+  .banner-text-content {
+    align-items: center !important;
+  }
 
+  .banner-text-content-home-page {
+    align-items: start !important;
+  }
+
+  .hackathon-about-section-image-1 .hackathon-background-image,
+  .hackathon-about-section-image-2 .hackathon-background-image,
+  .hackathon-about-section-image-1,
+  .hackathon-about-section-image-2 {
+    background-size: 100% 100%;
+    width: 35%;
+    /* margin: 10px; */
+  }
+
+  .hackathon-background-color {
+    width: 35%;
+  }
+
+  .hackathon-about-section-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  /* PARTNER SECTION */
+  .partners-section {
+    display: none !important;
+  }
+
+  /* FOOTER SECTION */
+  .footer-section {
+    background-color: var(--black-text) !important;
+  }
+
+  .content-section-footer h4,
+  .content-section-footer p {
+    color: var(--smoke-text) !important;
+  }
+
+  .footer-logo-transparent {
+    display: block !important;
+  }
+
+  .footer-logo-red {
+    display: none !important;
+  }
 }

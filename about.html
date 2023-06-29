@@ -49,8 +49,8 @@
       </nav>
     </header>
     <main>
-      <section class="banner-section">
-        <div class="background-image"></div>
+      <section class="banner-section banner-section-about-page">
+        <div class="background-image background-image-about-page"></div>
         <div class="banner-text-content">
           <h1 class="mb-3 text-center">Hello Developers!</h1>
           <h2 class="fw-bold text-center">
@@ -84,28 +84,30 @@
           <div class="about-logo text-center">
             <img src="assets/images/reviewme-high-resolution-logo-color-on-transparent-background.png" width="150px" height="150px" alt="">
           </div>
-          <div class="about-big-line"><hr /></div>
         </div>
       </section>
+      <div class="about-big-line"><hr /></div>
       <section class="hackathon-about-section text-center">
         <h4>See the past ReviewMe Hackathon</h4>
         <div class="service-line"><hr /></div>
         <p>Take a look at the last two Hackathons which took place in Goma and Kinshasa</p>
-        <div class="hackathon-about-section-image-1">
-            <div class="hackathon-background-image"></div>
-            <div class="hackathon-background-color"></div>
-            <div class="hackathon-description">
-                <h4>2023</h4>
-                <p>ReviewMe Hackathon in Kinshasa</p>
-            </div>            
-        </div>
-        <div class="hackathon-about-section-image-2">
-            <div class="hackathon-background-image"></div>
-            <div class="hackathon-background-color"></div>
-            <div class="hackathon-description">
-                <h4>2023</h4>
-                <p>ReviewMe Hackathon in Goma</p>
-            </div>
+        <div class="hackathon-about-section-wrapper">
+          <div class="hackathon-about-section-image-1">
+              <div class="hackathon-background-image"></div>
+              <div class="hackathon-background-color"></div>
+              <div class="hackathon-description">
+                  <h4>2023</h4>
+                  <p>ReviewMe Hackathon in Kinshasa</p>
+              </div>            
+          </div>
+          <div class="hackathon-about-section-image-2">
+              <div class="hackathon-background-image"></div>
+              <div class="hackathon-background-color"></div>
+              <div class="hackathon-description">
+                  <h4>2023</h4>
+                  <p>ReviewMe Hackathon in Goma</p>
+              </div>
+          </div>
         </div>
       </section>
       <section class="partners-section">
@@ -121,13 +123,14 @@
     </main>
     <footer class="footer-section">
       <div class="logo-section-footer">
-        <img src="assets/images/reviewme-high-resolution-logo-color-on-transparent-background.png" width="150px" height="50px" alt="" />
+        <img src="assets/images/reviewme-high-resolution-logo-color-on-transparent-background.png" class="footer-logo-red" width="150px" height="50px" alt="" />
+        <img src="assets/images/reviewme-high-resolution-logo-white-on-transparent-background.png" class="footer-logo-transparent" width="150px" height="50px" alt="" />
       </div>
       <div class="content-section-footer">
         <h4>2023 ReviewMe, DRC. Some Rights Reserved</h4>
-        <!-- <p>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p> -->
+        </p>
       </div>
     </footer>
     <script src="assets/js/bootstrap.min.js"></script>
