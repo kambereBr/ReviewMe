@@ -74,10 +74,6 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.content-title-service p {
-  padding: 5px;
-}
-
 h1,
 h2 {
   color: var(--orange-color);
@@ -95,9 +91,14 @@ h4 {
   font-family: "Lato", sans-serif;
 }
 
+.content-title-service p {
+  padding: 5px;
+}
+
 h1 {
   font-size: 1.3rem;
 }
+
 h2 {
   font-size: 1.3rem;
   line-height: inherit;
@@ -173,7 +174,7 @@ hr {
 }
 
 .card-body {
-  padding: 0px;
+  padding: 0;
 }
 
 .col-card-service {
@@ -181,7 +182,7 @@ hr {
 }
 
 .text-more-service {
-  size: 0.1rem;
+  font-size: 0.1rem;
   font-weight: 500;
   text-decoration: underline;
 }
@@ -320,7 +321,7 @@ hr {
 .reviewer-items-more-button a {
   text-decoration: none;
   color: #272a31;
-  size: 1.5rem;
+  font-size: 1rem;
 }
 
 .reviewer-items-more-button img {
