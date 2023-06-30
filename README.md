@@ -55,7 +55,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://kamberebr.github.io/ReviewMe/)
-- [Video presentation](https://www.loom.com/share/ab7272c6a4444543b3d451bf6d6e310b?sid=59fd6152-3707-48be-9d30-d6a6eaf0e740)
+- [Video presentation](https://www.loom.com/share/3ca14167ed6c472a93f548b6833229b4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
