@@ -4,7 +4,8 @@
   }
 
   .nav-bar-logo-image {
-    display: block !important;
+    display: flex !important;
+    margin-right: 30%;
   }
 
   .navbar > .container-fluid {
@@ -186,6 +187,7 @@
 
   .footer-section-about {
     background-color: var(--black-text) !important;
+    width: 102%;
   }
 
   .content-section-footer h4,
