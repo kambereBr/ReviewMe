@@ -1,7 +1,7 @@
 const arrayReviewers = [
     {
         picture : 'assets/images/profile-001.JPG',
-        name : 'Bruno Kambere',
+        name : 'Bruno K.',
         position : 'Software Developer at Amazon',
         description : 'JavaScript developer with 5+ years of experience in the field.\
                 Proven ability to design, develop, and deploy JavaScript-based\
