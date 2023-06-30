@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Home Page - ReviewMe</title>
   </head>
@@ -18,36 +23,35 @@
             />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon" style="color: aqua"></span>
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-            <div class="d-flex">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item me-5">
-                  <a class="nav-link" aria-current="page" href="about.html"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item me-5">
-                  <a class="nav-link" href="#service-section">Services</a>
-                </li>
-                <li class="nav-item me-5">
-                  <a class="nav-link" href="#partners-section">Sponsors</a>
-                </li>
-                <li class="nav-item me-5">
-                  <a class="nav-link">Forum</a>
-                </li>
-              </ul>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item me-5">
+                <a class="nav-link" aria-current="page" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#service-section">Services</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#partners-section">Sponsors</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link">Forum</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -161,9 +165,12 @@
         <div class="content-title-service mt-5" id="reviewers-section">
           <h3 class="text-center">Reviewers</h3>
           <div class="reviewers-line"><hr /></div>
-        </div> 
+        </div>
       </section>
-      <section class="partners-section partners-section-home-page" id="partners-section">
+      <section
+        class="partners-section partners-section-home-page"
+        id="partners-section"
+      >
         <h3 class="text-center">Partner</h3>
         <div class="partners-line"><hr /></div>
         <div class="partners-logo">
@@ -191,7 +198,11 @@
         <p>Designed and developed by Bruno K.</p>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
