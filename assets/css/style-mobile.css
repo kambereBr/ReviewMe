@@ -25,7 +25,9 @@
   border: 4px solid var(--orange-color);
 }
 
-.nav-item-donate a {
+.nav-item-donate a,
+.hello-dev-text-about,
+.hello-dev-text {
   color: var(--orange-color) !important;
 }
 
@@ -73,7 +75,7 @@
   padding-top: 20px;
 }
 
-.banner-text-content .h2-banner-home {
+.banner-text-content .h1-banner-home {
   background-image: url(../images/download.png);
   background-repeat: repeat;
   -webkit-background-clip: text;

@@ -38,11 +38,11 @@
     width: 80%;
   }
 
-  .banner-text-content h1 {
+  .banner-text-content p {
     font-size: 2.5rem;
   }
 
-  .banner-text-content h2 {
+  .banner-text-content h1 {
     font-size: 2.5rem;
   }
 
@@ -152,8 +152,12 @@
   }
 
   /* ABOUT PAGE */
-  .banner-text-content-about h1 {
+  .hello-dev-text-about {
     display: none !important;
+  }
+
+  .contact-text-about {
+    font-size: 1.2rem !important;
   }
 
   .banner-section-about-page,
