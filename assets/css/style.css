@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+@import url('style-mobile.css');
+@import url('style-desktop.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,232 @@
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-bar-logo-image {
+    display: flex !important;
+    margin-right: 10%;
+  }
+
+  .navbar > .container-fluid {
+    width: 80% !important;
+  }
+
+  .navbar {
+    background-color: white !important;
+  }
+
+  .home-menu-about {
+    display: none !important;
+  }
+
+  .navbar-expand-md .navbar-nav {
+    margin-left: auto !important;
+  }
+
+  /* BANNER SECTION */
+  .banner-section,
+  .background-image {
+    height: 100vh !important;
+  }
+
+  .banner-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    width: 80%;
+  }
+
+  .banner-text-content p {
+    font-size: 2.5rem;
+  }
+
+  .banner-text-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .site-description-div p,
+  .text-date-description {
+    font-size: 1.2rem;
+  }
+
+  .site-description-div {
+    width: 80%;
+    border: 3px solid white;
+  }
+
+  .text-date {
+    font-size: 2rem;
+  }
+
+  .content-title-service {
+    width: 80%;
+  }
+
+  .content-service-card-div {
+    display: flex;
+  }
+
+  .services-items-div,
+  .services-items-div-leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    width: 25%;
+  }
+
+  .services-items-div:hover {
+    border: 3px solid white;
+    cursor: pointer;
+  }
+
+  .reviewer-description {
+    text-align: center;
+  }
+
+  .reviewer-description-position {
+    text-align: start !important;
+  }
+
+  .hide-items {
+    display: flex !important;
+  }
+
+  .reviewer-items-last {
+    clear: both !important;
+  }
+
+  .services-items-div-rigthside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .buttont-join-reviewme a {
+    display: none !important;
+  }
+
+  .button-all-service a {
+    display: flex !important;
+    justify-content: center;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 40px;
+    font-size: 1.2rem;
+  }
+
+  /* REVIEWERS SECTION */
+  .reviewers-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reviewer-items {
+    display: flex;
+    float: left;
+    width: 50%;
+  }
+
+  .reviewer-name {
+    font-size: 1.5rem !important;
+  }
+
+  .reviewer-items-more-button {
+    display: none !important;
+  }
+
+  /* PARTENER SECTION */
+  .partners-section {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .footer-section-home-page {
+    display: flex !important;
+  }
+
+  /* ABOUT PAGE */
+  .hello-dev-text-about {
+    display: none !important;
+  }
+
+  .contact-text-about {
+    font-size: 1.2rem !important;
+  }
+
+  .banner-section-about-page,
+  .background-image-about-page {
+    height: 75vh !important;
+  }
+
+  .banner-text-content-home-page {
+    align-items: start !important;
+  }
+
+  .hackathon-about-section-image-1 .hackathon-background-image,
+  .hackathon-about-section-image-2 .hackathon-background-image,
+  .hackathon-about-section-image-1,
+  .hackathon-about-section-image-2 {
+    background-size: 100% 100%;
+    width: 35%;
+  }
+
+  .hackathon-background-color {
+    width: 35%;
+  }
+
+  .hackathon-about-section-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .about-logo {
+    width: 50% !important;
+  }
+
+  /* PARTNER SECTION */
+  .partners-section-about {
+    display: none !important;
+  }
+
+  .partners-logo img {
+    margin: 30px !important;
+  }
+
+  /* FOOTER SECTION */
+  .footer-section {
+    background-color: var(--smoke-text) !important;
+  }
+
+  .footer-section-about {
+    background-color: var(--black-text) !important;
+    width: 102%;
+  }
+
+  .content-section-footer h4,
+  .content-section-footer p {
+    color: var(--black-text) !important;
+  }
+
+  .content-section-footer-about h4,
+  .content-section-footer-about p {
+    color: var(--smoke-text) !important;
+  }
+
+  .footer-logo-transparent {
+    display: block !important;
+  }
+
+  .footer-logo-red {
+    display: none !important;
+  }
+}
