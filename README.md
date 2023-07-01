@@ -146,7 +146,8 @@ If you like this project do not hesitate to rate it, Join the community, Spread 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse team and all my teammate who somehow contributed to this project 
+This design is licensed under a Creative Commons Attribution
+**Original design idea by:** [Cindy Shin in Behance.](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

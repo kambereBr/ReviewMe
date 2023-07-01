@@ -5,15 +5,23 @@
 
   .nav-bar-logo-image {
     display: flex !important;
-    margin-right: 30%;
+    margin-right: 10%;
   }
 
   .navbar > .container-fluid {
     width: 80% !important;
   }
 
+  .navbar {
+    background-color: white !important;
+  }
+
   .home-menu-about {
     display: none !important;
+  }
+
+  .navbar-expand-md .navbar-nav {
+    margin-left: auto !important;
   }
 
   /* BANNER SECTION */
@@ -45,7 +53,7 @@
 
   .site-description-div {
     width: 80%;
-    border: 1px solid var(--smoke-text);
+    border: 3px solid white;
   }
 
   .text-date {
@@ -70,6 +78,11 @@
     width: 25%;
   }
 
+  .services-items-div:hover {
+    border: 3px solid white;
+    cursor: pointer;
+  }
+
   .reviewer-description {
     text-align: center;
   }
@@ -91,6 +104,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 0;
+    width: 100%;
   }
 
   .buttont-join-reviewme a {
@@ -169,6 +183,10 @@
     margin: -20px;
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .about-logo {
+    width: 50% !important;
   }
 
   /* PARTNER SECTION */
