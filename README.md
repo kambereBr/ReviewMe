@@ -91,9 +91,9 @@ To run the project, open te index.html file in the browser
 To run tests, run the following command:
 
 ```sh
-  npx hint .
-  npx stylelint "**/*.{css,scss}"
-  npx eslint .
+  npx hint . --fix
+  npx stylelint "**/*.{css,scss}" --fix
+  npx eslint . --fix
 ```
 
 ### Deployment
@@ -110,7 +110,7 @@ You can deploy this project using: github deployment process
 
 - GitHub: [@kambereBr](https://github.com/kambereBr)
 - Twitter: [@kambereBr](https://twitter.com/kambereBr)
-- LinkedIn: [bruno kambere](https://www.linkedin.com/in/bruno-kambere-399447138/)
+- LinkedIn: [bruno kambere](https://www.linkedin.com/in/bruno-kambere/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
